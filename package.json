@@ -1,0 +1,26 @@
+{
+  "name": "sandbox-typescript-eslint-prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kamataryo/sandbox-typescript-eslint-prettier.git",
+  "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --cache src/**/*",
+    "format": "prettier src/* --write",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.3",
+    "@typescript-eslint/eslint-plugin": "^1.3.0",
+    "eslint": "^5.14.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^16.8.2"
+  }
+}
