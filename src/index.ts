@@ -1,2 +1,4 @@
 const a: string = "aaa";
-console.log(a);
+const b: number = 123;
+
+a + b; //aaa123
